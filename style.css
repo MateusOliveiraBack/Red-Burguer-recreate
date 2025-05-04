@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(assets/bg.png);
+}
+.logo{
+    justify-items: center;
+    padding: 30px;
+    color: white;
+}
+.logo img{
+    width: 120px;
+    padding-bottom: 10px;
+}
+.logo h2{
+    padding: 10px 0 10px 0;
+}
+.green-text{
+    background-color: #54cc0a;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.conheca{
+    justify-items: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.iten{
+    width: 450px;
+    display: flex;
+    padding-bottom: 17px;
+    gap: 15px;
+}
+.iten-photo{
+    height: 100px;
+}
+.iten p{
+    padding-bottom: 17px;
+}
+.carrinho{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: black;
+}
+.buy-iten{
+    justify-content: space-between;
+    display: flex;
+    width: 320px;
+}
+.coluns{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: #ff3131;
+    align-items: center;
+}
+footer button{
+    font-size: 11px;
+    padding: 10px;
+    background-color: rgba(245, 245, 220, 0);
+    border: none;
+    color: white;
+}
+footer img{
+    height: 15px;
+}
+footer button:hover{
+    font-size: 13px;
+}
